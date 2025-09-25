@@ -82,7 +82,7 @@ document.addEventListener('DOMContentLoaded', function() {
         submitButton.disabled = true;
         
         // Send email using EmailJS
-        emailjs.send('service_tozi6co', 'template_9tsaiuh', {
+        emailjs.send('service_tozi6co', 'template_ifwie1i', {
             from_name: formObject.name,
             from_email: formObject.email,
             phone: formObject.phone,
@@ -338,4 +338,5 @@ window.addEventListener('load', function() {
     
     // Add loaded class to body for any additional animations
     document.body.classList.add('loaded');
+
 });
